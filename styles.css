@@ -4,11 +4,11 @@ body {
 }
 
 .search-page {
-    background-image: url(./assets/elearning_getty.jpg);
+    background-image: url(./assets/learning_getty.jpg);
 }
 
 .user-page {
-    background-image: url(./assets/elearning_education.jpg;
+    background-image: url(./assets/learning_education.jpg);
 }
 
 .section1 {
@@ -55,6 +55,11 @@ body {
   .collage-image {
       width: 99%;
      
+  }
+
+  .usr-container {
+      background-color:navajowhite;
+      opacity: 0.97;
   }
 @media (max-width: 1024px)
 {
