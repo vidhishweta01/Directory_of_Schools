@@ -49,7 +49,8 @@
 select {
   padding-left: 0;
   padding-right: 0;
-  padding: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   width: 97%;
   height: 64%;
   background-color: white;
@@ -64,16 +65,19 @@ select {
   background-color: navajowhite;
   opacity: 0.97;
 }
+
 @media (max-width: 1024px) {
   .how-it-works {
     width: 20%;
     height: 45px;
     opacity: 0.9;
   }
+
   select {
     padding-left: 0;
     padding-right: 0;
-    padding: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     width: 97%;
     height: 64%;
     background-color: white;
@@ -85,6 +89,7 @@ select {
   .icons {
     float: right;
   }
+
   .how-it-works {
     width: 30%;
     height: 45px;
@@ -146,7 +151,8 @@ select {
   select {
     padding-left: 0;
     padding-right: 0;
-    padding: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     width: 94%;
     height: 64%;
     background-color: white;
