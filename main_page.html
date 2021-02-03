@@ -23,7 +23,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://icons8.com/icon/dkClgLsUCHIi/rss-logo">
+  <link rel="" href="https://icons8.com/icon/dkClgLsUCHIi/rss-logo">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./styles.css">
 
@@ -38,8 +38,8 @@
           class="fa fa-search font-weight-bold mr-1" aria-hidden="true"></i>SCHOOLS</a>
       <a href="#" class="text-decoration-none px-auto text-light font-weight-bold px-2 border-right"><i
           class="fa fa-user font-weight-bold mr-1" aria-hidden="true"></i>ABOUT</a>
-      <a href="#" class="text-decoration-none px-auto text-light font-weight-bold px-2 border-right"><img
-          src="https://img.icons8.com/windows/32/ffffff/rss-logo.png" class="mr-1" height="18" />BLOG</a>
+      <a href="#" class="text-decoration-none px-auto text-light font-weight-bold px-2 border-right">
+        <img src="https://img.icons8.com/windows/32/ffffff/rss-logo.png" alt="" class="mr-1" height="18">BLOG</a>
       <a href="#" class="text-decoration-none px-auto text-light font-weight-bold px-2 border-right"><i
           class="fa fa-bars mr-1" aria-hidden="true"></i>MORE</a>
     </div>
@@ -49,12 +49,15 @@
         alt="logo" height="75" class="pr-1">MY SCHOOL</a>
     <a href="./search.html" class="text-decoration-none px-auto text-light font-weight-bold px-2 mx-md-2 "><i
         class="fa fa-search font-weight-bold" aria-hidden="true"></i></a>
-    <a href="#" class="text-decoration-none px-auto text-light font-weight-bold px-2 mx-md-2 "><i
-        class="fa fa-user font-weight-bold" aria-hidden="true"></i>
-      <a href="#" class="text-decoration-none px-auto text-light font-weight-bold px-2 mx-md-2 "><img
-          src="https://img.icons8.com/windows/32/ffffff/rss-logo.png" height="18" /></a>
-      <a href="#" class="text-decoration-none px-auto text-light font-weight-bold px-2 mx-md-2 "><i class="fa fa-bars"
-          aria-hidden="true"></i></i></a>
+    <a href="#" class="text-decoration-none px-auto text-light font-weight-bold px-2 mx-md-2 ">
+      <i class="fa fa-user font-weight-bold" aria-hidden="true"></i>
+    </a>
+    <a href="#" class="text-decoration-none px-auto text-light font-weight-bold px-2 mx-md-2 ">
+      <img src="https://img.icons8.com/windows/32/ffffff/rss-logo.png" alt="" height="18">
+    </a>
+    <a href="#" class="text-decoration-none px-auto text-light font-weight-bold px-2 mx-md-2 ">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </a>
   </nav>
   <div style="height: 100px"></div>
   <section>
@@ -64,13 +67,18 @@
       <div class="d-flex flex-row justify-content-center search">
         <div class="w-75"><input type="text" class="form-control"></div>
         <div class="w-25">
-          <a href="./search.html"><button type="submit" class=" btn-block font-weight-bolder bg-danger text-light large p-1">SEARCH</button></a>
+          <form action="./search.html">
+          <button type="submit"class=" btn-block font-weight-bolder bg-danger text-light large p-1">SEARCH</button>
+        </form>
         </div>
+      </div>
     </div>
   </section>
-  <div style="height: 100px"></div>
+  <section>
+    <div style="height: 100px"></div>
   <div class="container bg-light text-center pt-2 border how-it-works">HOW IT WORKS</div>
   <div style="height: 100px"></div>
+  </section>
   <section>
     <div class="container-fluid bg-light pt-3">
       <h4 class="text-danger font-weight-bold text-center">MY SCHOOL WORKS IN FOUR SIMPLE STEPS</h4>
@@ -119,7 +127,7 @@
         <div class="col-md-8 col-lg-9">
           <h5>Over 10,000 school registered with us</h5>
           <p>Find a school by using our filtered search engine</p>
-          <a href="./search.html"><button type="submit" class="text-danger border-danger">Find a school</button></a>
+          <form action="./search.html"><button type="submit" class="text-danger border-danger">Find a school</button></form>
         </div>
         <div class="col-md-3 col-lg-3">
           <img src="./assets/danger.png" class="rounded-circle image">
@@ -129,9 +137,9 @@
         <div class="col-md-8 col-lg-9">
           <h5>No need to take 3 Matatus to find a school</h5>
           <p>Just press or click on the search button and You're all set</p>
-          <a href="./search.html"><button type="submit" class="text-secondary border-secondary">Find a school near
-              you</button>
-          </a>
+          <form action="./search.html">
+            <button type="submit" class="text-secondary border-secondary">Find a school near you</button>
+            </form>
         </div>
         <div class="col-md-3 col-lg-3">
           <img src="./assets/secondary.png" class="rounded-circle image">
@@ -166,7 +174,7 @@
         <p class="font-weight-bold text-light text-center">SUBSCRIBE</p>
         <div class="d-flex flex-row justify-content-center search">
           <div><input type="email" class="bg-dark"></div>
-          <div><a href="#"><button type="submit" class="btn-block px-2 font-weight-bolder bg-dark text-light rounded">SEND</button></a></div>
+          <div><button type="submit" class="btn-block px-2 font-weight-bolder bg-dark text-light rounded">SEND</button></div>
         </div>
       </div>
       <div class="p-3">
@@ -205,7 +213,7 @@
         <p class="font-weight-bold text-light text-center">SUBSCRIBE</p>
         <div class="d-flex flex-row justify-content-center search">
           <div><input type="email" class="bg-dark"></div>
-          <div><a href="#"><button type="submit" class="btn-block px-2 font-weight-bolder bg-dark text-light rounded">SEND</button></a></div>
+          <div><button type="submit" class="btn-block px-2 font-weight-bolder bg-dark text-light rounded">SEND</button></div>
         </div>
       </div>
       <div class="p-3">
