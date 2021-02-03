@@ -1,4 +1,4 @@
-body {
+.main-page {
     background-image: url(./assets/bach.gif);
     background-size: cover;
 }
@@ -9,6 +9,10 @@ body {
 
 .user-page {
     background-image: url(./assets/learning_education.jpg);
+}
+
+.ipem-page {
+    background-color: lightgoldenrodyellow;
 }
 
 .section1 {
@@ -89,6 +93,10 @@ body {
         width: 30%;
         height: 45px;
         opacity: 0.9;
+    }
+
+    .ipem_timeline {
+        width: 767px;
     }
     
 }
