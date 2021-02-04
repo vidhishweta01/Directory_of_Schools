@@ -5,16 +5,16 @@ Directory_of_school, is the capstone project inspired by above mentioned designe
 
 This is a project for the Microverse training program, Week 4, and it aims to use the HTML, CSS and Bootstrap to create a website part with is a inspiration of Directory_of_school. Here there are 4 pages - main, search, user & ipem. these are interlink among itself. 
 
-![Screenshot-of-live-demo-main] (./assets/main_page.png)
+![Screenshot-of-live-demo-main] (./assets/screenshot.jpg)
 index.html is the main page, contains search button along with links to all pages.
 
-![Screenshot-of-live-demo-search] (./assets/search_page.png)
+![Screenshot-of-live-demo-search] (./assets/screenshot2.png)
 search page contains different colleges as a results of search.
 
-![Screenshot-of-live-demo-college] (./assets/ipem.png)
+![Screenshot-of-live-demo-college] (./assets/screenshot3.png)
 its a college page with description about it.
 
-![Screenshot-of-live-demo-user] (./assets/user.png)
+![Screenshot-of-live-demo-user] (./assets/screenshot4.png)
 its a user page which contains a form for user info.
 
 ## Built With
