@@ -1,6 +1,14 @@
 # Directory_of_school
 
-![Screenshot-of-THE-demo](https://www.behance.net/gallery/25563385/PatashuleKE)
+![Screenshot-of-THE-demo](./assets/sScreenshot5.png)
+
+![Screenshot-of-THE-demo](./assets/sScreenshot6.png)
+
+![Screenshot-of-THE-demo](./assets/sScreenshot7.png)
+
+![Screenshot-of-THE-demo](./assets/sScreenshot8.png)
+
+![Screenshot-of-THE-demo](./assets/sScreenshot9.png)
 
 Directory_of_school, is the capstone project inspired by above mentioned designed for week 4 Microverse Html, CSS, Bootstrap curricullum.
 
