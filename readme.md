@@ -1,4 +1,7 @@
 # Directory_of_school
+Directory_of_school, is the capstone project inspired by above mentioned designed for week 4 Microverse Html, CSS, Bootstrap curricullum.
+
+This is a project for the Microverse training program, Week 4, and it aims to use the HTML, CSS and Bootstrap to create a website part with is a inspiration of Directory_of_school. Here there are 4 pages - main, search, user & ipem. these are interlink among itself. 
 
 ![Screenshot-of-THE-demo](./assets/Screenshot5.png)
 
@@ -9,10 +12,6 @@
 ![Screenshot-of-THE-demo](./assets/Screenshot8.png)
 
 ![Screenshot-of-THE-demo](./assets/Screenshot9.png)
-
-Directory_of_school, is the capstone project inspired by above mentioned designed for week 4 Microverse Html, CSS, Bootstrap curricullum.
-
-This is a project for the Microverse training program, Week 4, and it aims to use the HTML, CSS and Bootstrap to create a website part with is a inspiration of Directory_of_school. Here there are 4 pages - main, search, user & ipem. these are interlink among itself. 
 
 ![Screenshot-of-live-demo-main](./assets/screenshot.jpg)
 
